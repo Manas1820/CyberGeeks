@@ -1,8 +1,8 @@
 <template>
-  <div class="flex-container">
-    
-    <div class="name-home"> We Are <vue-typer
-      :text='["CyberGeeks","ComputerizedSmartAlacs","CyberSpaceNerds"]'
+  <div class="flex-container" onmousedown="return false" onselectstart="return false">
+   
+    <div class="name-home">We Are <vue-typer
+      :text='["CyberGeeks","CyberSpaceNerds","Geeks of the Cyberverse"]'
       :repeat='Infinity'
       initial-action='typing'
       :pre-type-delay='90'
@@ -37,6 +37,9 @@ export default {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
 .text-desc{
   font-size: 1.2rem;
   font-family: Archia;
@@ -48,6 +51,7 @@ export default {
 .flex-container{
   float: center;
   color: aliceblue;
+  padding-top:5rem;
 }
 
 .vue-typer {
@@ -57,7 +61,7 @@ export default {
   color: #009688;
 }
 .vue-typer .custom.char.selected {
-  color: #E91E63;
+  color: #7e1b3c;
 }
 
 
