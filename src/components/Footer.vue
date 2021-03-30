@@ -1,8 +1,8 @@
 <template>
   <div id="Footer">
     <a
-      href="#" class="link"
-      >© Manas Gupta</a
+      href="https://raw.githubusercontent.com/Manas1820/CyberGeeks/master/LICENSE" class="link"
+      data-cursor-hover>© Manas Gupta</a
     >| Made with 💙 by Manas Gupta
   </div>
 </template>

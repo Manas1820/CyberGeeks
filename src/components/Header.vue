@@ -2,7 +2,7 @@
 <div onmousedown="return false" onselectstart="return false">
     <b-navbar toggleable="lg" type="dark" class="header-style">
       <b-container>
-      <b-navbar-brand href="#" class="logo" data-cursor-hover>CyberGeeks</b-navbar-brand>
+      <b-navbar-brand href="https://github.com/Manas1820/CyberGeeks" class="logo" data-cursor-hover>CyberGeeks</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav class="all-menu">  
         <!-- Right aligned nav items -->
