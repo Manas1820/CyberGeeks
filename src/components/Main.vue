@@ -1,14 +1,18 @@
 <template>
     <div> 
       <Header/>
-      <b-container>
-        <div class="add-space">
+        <b-row class="align-text">
             <Home/> 
+        </b-row>
+        <b-row class="align-text">
+          <b-container>
+            <Description/>
+          </b-container>  
+        </b-row>
+        <div class="footer">
+          <Footer/> 
         </div>
-        <div class="add-space">
-            <Projects/>
-        </div>     
-      </b-container>
+          
    </div>     
 </template>
 
@@ -16,14 +20,16 @@
 
 import Home from './Home'
 import Header from './Header.vue'
-import Projects from './Hackers.vue'
+import Description from './Description.vue'
+import Footer from './Footer'
 
 export default {
   name: 'Main',
   components: {
     Home,
     Header,
-    Projects
+    Description,
+    Footer
   }
 }
 
@@ -31,6 +37,20 @@ export default {
 
 <style scoped>
 .add-space {
-  display :flexbox;
+  display :flex;
 }
+
+.align-text {
+  justify-content:center;
+  display :flex;
+}
+
+.color-code{
+  padding-top: 3rem;
+  background:transparent;
+  height :50%;
+  width:30%;
+  float: right;
+}
+
 </style>

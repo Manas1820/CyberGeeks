@@ -1,7 +1,7 @@
 <template>   
-  <div id="app">
-      <particles-bg color='#ffffff' num=20 type="cobweb" :bg="true" :canvas="canvasObject"/>
-      <cursor-fx ref="cursor" color="#ffffff" color-hover="#aaaaaa" inside-size= 8px outside-size= 100px />    
+  <div id="app" onmousedown="return false" onselectstart="return false">
+      <particles-bg color='#7EE787' num=35 type="cobweb" :bg="true" :canvas="canvasObject"/>
+      <cursor-fx ref="cursor" color="#77B9F1" color-hover="#bbbbbb" inside-size= 8px outside-size= 100px />    
       <Main/>
   </div>    
 </template>
@@ -29,6 +29,9 @@ export default {
 }
 body{
   background-color:black;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 /* Importing Gilbert-Color */
 @font-face {
